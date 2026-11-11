@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141b33"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd54a"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ffd54a"/></marker>
+  </defs>
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <text x="600" y="52" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">Find businesses with no website. Offer them one.</text>
+
+  <g font-size="14" fill="#c9d1e8" text-anchor="middle">
+    <!-- Step 1: Search -->
+    <rect x="30" y="90" width="160" height="160" rx="16" fill="#1b2442" stroke="#2c3866"/>
+    <text x="110" y="130" fill="#ffd54a" font-size="32">&#x1f50d;</text>
+    <text x="110" y="176" fill="#fff" font-weight="700" font-size="16">1. Search</text>
+    <text x="110" y="200">Google Maps</text>
+    <text x="110" y="220">for any niche</text>
+    <text x="110" y="240">and city</text>
+
+    <!-- Step 2: Filter -->
+    <rect x="222" y="90" width="160" height="160" rx="16" fill="#1b2442" stroke="#2c3866"/>
+    <rect x="262" y="118" width="80" height="8" rx="4" fill="#2c3866"/>
+    <rect x="262" y="118" width="80" height="8" rx="4" fill="#2c3866"/>
+    <rect x="262" y="134" width="50" height="8" rx="4" fill="#ff4444"/>
+    <rect x="262" y="150" width="80" height="8" rx="4" fill="#2c3866"/>
+    <rect x="262" y="166" width="30" height="8" rx="4" fill="#2c3866"/>
+    <text x="302" y="200" fill="#ff6666" font-size="11">has website - skip</text>
+    <text x="302" y="176" fill="#fff" font-weight="700" font-size="16">2. Skip sites</text>
+    <text x="302" y="220">Drop listings</text>
+    <text x="302" y="237">that already</text>
+    <text x="302" y="254">have a real site</text>
+
+    <!-- Step 3: CSV -->
+    <rect x="414" y="90" width="160" height="160" rx="16" fill="#1b2442" stroke="#2c3866"/>
+    <rect x="444" y="116" width="100" height="70" rx="8" fill="#0b1020" stroke="#2c3866"/>
+    <text x="494" y="138" fill="#ffd54a" font-size="10" font-weight="700">name,phone,address</text>
+    <text x="494" y="154" fill="#c9d1e8" font-size="9">Main St Auto,555-0101</text>
+    <text x="494" y="167" fill="#c9d1e8" font-size="9">Oak Ave Lawn,555-0102</text>
+    <text x="494" y="180" fill="#c9d1e8" font-size="9">Beach Wash,555-0103</text>
+    <text x="494" y="208" fill="#fff" font-weight="700" font-size="16">3. Save CSV</text>
+    <text x="494" y="230">Name, phone,</text>
+    <text x="494" y="247">address, Maps link</text>
+
+    <!-- Step 4: Kenji -->
+    <rect x="606" y="80" width="170" height="180" rx="18" fill="url(#gold)"/>
+    <text x="691" y="152" fill="#0b1020" font-weight="800" font-size="28">Kenji AI</text>
+    <text x="691" y="178" fill="#0b1020" font-size="14" font-weight="600">CRM contacts</text>
+    <text x="691" y="200" fill="#0b1020" font-size="13">tagged no-website</text>
+    <text x="691" y="224" fill="#0b1020" font-size="13">ready to call</text>
+    <text x="606" y="285" text-anchor="middle" fill="#8f9bc4" font-size="13">4. Push to Kenji</text>
+
+    <!-- Step 5: Outreach -->
+    <rect x="810" y="90" width="160" height="160" rx="16" fill="#1b2442" stroke="#2c3866"/>
+    <text x="890" y="135" fill="#ffd54a" font-size="30">&#x1f4de;</text>
+    <text x="890" y="175" fill="#fff" font-weight="700" font-size="16">5. Call or email</text>
+    <text x="890" y="198">Offer a free</text>
+    <text x="890" y="216">or low-cost</text>
+    <text x="890" y="234">website</text>
+
+    <!-- Step 6: Close -->
+    <rect x="1002" y="90" width="168" height="160" rx="16" fill="#1b2442" stroke="#2c3866"/>
+    <text x="1086" y="135" fill="#ffd54a" font-size="30">&#x1f4b0;</text>
+    <text x="1086" y="175" fill="#fff" font-weight="700" font-size="16">6. Close</text>
+    <text x="1086" y="198">Site + Kenji</text>
+    <text x="1086" y="216">AI tools = new</text>
+    <text x="1086" y="234">monthly client</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#ffd54a" stroke-width="2.5" fill="none" marker-end="url(#arr)">
+    <path d="M192,170 L218,170"/>
+    <path d="M384,170 L410,170"/>
+    <path d="M576,170 L602,170"/>
+    <path d="M778,170 L806,170"/>
+    <path d="M972,170 L998,170"/>
+  </g>
+
+  <text x="600" y="340" text-anchor="middle" fill="#8f9bc4" font-size="14">python find.py "mobile detailing Austin TX"      then      python push_to_kenji.py leads.csv --push</text>
+</svg>

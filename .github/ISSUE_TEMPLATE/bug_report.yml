@@ -1,0 +1,39 @@
+name: Bug report
+description: Something is broken or not working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a bug, check the [Troubleshooting table in the README](../README.md#fixing-common-problems).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. Include the full error output if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact command you ran, the query you used, and what came back.
+      placeholder: |
+        1. python find.py "mobile detailing" "Austin TX" --max-per-search 10
+        2. Error output: ...
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS 14, Ubuntu 22.04
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: 3.11.5
+    validations:
+      required: true

@@ -1,0 +1,37 @@
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="Consolas, Courier New, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  </defs>
+  <!-- Window frame -->
+  <rect width="960" height="400" rx="12" fill="#1e2433"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="960" height="38" rx="12" fill="#252d3d"/>
+  <rect x="0" y="20" width="960" height="18" fill="#252d3d"/>
+  <!-- Traffic lights -->
+  <circle cx="20" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="19" r="6" fill="#28c840"/>
+  <text x="480" y="24" text-anchor="middle" fill="#8f9bc4" font-size="13">Terminal</text>
+  <!-- Terminal body -->
+  <rect x="0" y="38" width="960" height="362" rx="0" fill="url(#bg)"/>
+  <rect x="0" y="372" width="960" height="28" rx="12" fill="url(#bg)"/>
+
+  <!-- Lines -->
+  <g font-size="13.5" fill="#c9d1e8">
+    <text x="24" y="68"><tspan fill="#28c840">$</tspan> python find.py "mobile detailing Austin TX" --max-per-search 15</text>
+    <text x="24" y="92" fill="#8f9bc4">Using system Chrome.</text>
+    <text x="24" y="114">mobile detailing Austin TX: 23 listings, 9 without a real website</text>
+    <text x="24" y="136">  <tspan fill="#ffd54a">1.</tspan> Main Street Mobile Detail | none | 4.9</text>
+    <text x="24" y="158">  <tspan fill="#ffd54a">2.</tspan> Austin Auto Spa LLC      | social only | 4.6</text>
+    <text x="24" y="180">  <tspan fill="#ffd54a">3.</tspan> Detail Kings ATX          | none | no reviews yet</text>
+    <text x="24" y="202">  <tspan fill="#ffd54a">4.</tspan> Lone Star Detailing        | none | 4.3</text>
+    <text x="24" y="224">  <tspan fill="#ffd54a">5.</tspan> South Congress Shine       | social only | 4.7</text>
+    <text x="24" y="246" fill="#8f9bc4">  skip (no phone)</text>
+    <text x="24" y="268">  <tspan fill="#ffd54a">6.</tspan> Capital City Detail        | none | 4.5</text>
+    <text x="24" y="290"></text>
+    <text x="24" y="312" fill="#28c840">Done. 6 leads saved to leads.csv</text>
+    <text x="24" y="336"></text>
+    <text x="24" y="358"><tspan fill="#28c840">$</tspan> python push_to_kenji.py leads.csv</text>
+    <text x="24" y="380" fill="#8f9bc4">DRY RUN - pass --push to create contacts.</text>
+  </g>
+</svg>

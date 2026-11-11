@@ -1,0 +1,4 @@
+query,name,category,phone,site_status,website,address,rating,new_listing,maps_url
+mobile detailing Austin TX,Sample Detailing Co,Car Wash,(555) 010-0001,none,,123 Main St, Austin, TX 78701,4.8,,https://www.google.com/maps/place/sample1
+lawn care Dallas TX,Demo Lawn Services,Lawn Care Service,(555) 010-0002,social only,https://www.facebook.com/demolawn,456 Oak Ave, Dallas, TX 75201,4.2,,https://www.google.com/maps/place/sample2
+pressure washing Miami FL,Example Pressure Wash,Pressure Washing Service,(555) 010-0003,none,,789 Beach Blvd, Miami, FL 33101,,yes,https://www.google.com/maps/place/sample3

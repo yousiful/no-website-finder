@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="960" height="340" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141b33"/></linearGradient>
+  </defs>
+  <rect width="960" height="340" rx="20" fill="url(#bg)"/>
+  <text x="480" y="44" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">Output CSV sample</text>
+
+  <!-- Table header -->
+  <rect x="30" y="62" width="900" height="36" rx="8" fill="#1e2d55"/>
+  <g font-size="12" font-weight="700" fill="#ffd54a" text-anchor="middle">
+    <text x="90"  y="85">name</text>
+    <text x="195" y="85">category</text>
+    <text x="318" y="85">phone</text>
+    <text x="430" y="85">site_status</text>
+    <text x="562" y="85">address</text>
+    <text x="696" y="85">rating</text>
+    <text x="790" y="85">new_listing</text>
+    <text x="894" y="85">maps_url</text>
+  </g>
+
+  <!-- Row 1 -->
+  <rect x="30" y="100" width="900" height="40" rx="6" fill="#141d38"/>
+  <g font-size="11" fill="#c9d1e8" text-anchor="middle">
+    <text x="90"  y="124">Sample Detailing</text>
+    <text x="195" y="124">Car Wash</text>
+    <text x="318" y="124">(555) 010-0001</text>
+    <text x="430" y="124">none</text>
+    <text x="562" y="124">123 Main St, Austin TX</text>
+    <text x="696" y="124">4.8</text>
+    <text x="790" y="124"></text>
+    <text x="894" y="124">maps.google.com/...</text>
+  </g>
+
+  <!-- Row 2 -->
+  <rect x="30" y="142" width="900" height="40" rx="6" fill="#1b2442"/>
+  <g font-size="11" fill="#c9d1e8" text-anchor="middle">
+    <text x="90"  y="166">Demo Lawn Svc</text>
+    <text x="195" y="166">Lawn Care</text>
+    <text x="318" y="166">(555) 010-0002</text>
+    <text x="430" y="166">social only</text>
+    <text x="562" y="166">456 Oak Ave, Dallas TX</text>
+    <text x="696" y="166">4.2</text>
+    <text x="790" y="166"></text>
+    <text x="894" y="166">maps.google.com/...</text>
+  </g>
+
+  <!-- Row 3 -->
+  <rect x="30" y="184" width="900" height="40" rx="6" fill="#141d38"/>
+  <g font-size="11" fill="#c9d1e8" text-anchor="middle">
+    <text x="90"  y="208">Example Wash</text>
+    <text x="195" y="208">Pressure Washing</text>
+    <text x="318" y="208">(555) 010-0003</text>
+    <text x="430" y="208">none</text>
+    <text x="562" y="208">789 Beach Blvd, Miami FL</text>
+    <text x="696" y="208">-</text>
+    <text x="790" y="208">yes</text>
+    <text x="894" y="208">maps.google.com/...</text>
+  </g>
+
+  <!-- Legend -->
+  <text x="30"  y="260" fill="#8f9bc4" font-size="13">site_status "none" = no website at all</text>
+  <text x="30"  y="280" fill="#8f9bc4" font-size="13">site_status "social only" = only Facebook, Instagram, Yelp, etc.</text>
+  <text x="30"  y="300" fill="#ffd54a" font-size="13">new_listing "yes" = no star rating yet - could be a brand new business</text>
+</svg>

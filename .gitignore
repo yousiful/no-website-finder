@@ -1,0 +1,8 @@
+.env
+*.csv
+!examples/sample.csv
+pushed.json
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
