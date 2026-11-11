@@ -219,13 +219,6 @@ flowchart LR
 
 ---
 
-## More free tools
-
-- **[kenji-clip-engine](https://github.com/yousiful/kenji-clip-engine)** - Turn any YouTube video or Zoom recording into short vertical clips, then post them to Facebook, Instagram, TikTok, LinkedIn and more through Kenji.
-- **[reel-editing-toolkit](https://github.com/yousiful/reel-editing-toolkit)** - Animated captions, zoom cuts, cue cards and sound effects for reels.
-
----
-
 ## More free tools from us
 
 - **[Kenji Clip Engine](https://github.com/yousiful/kenji-clip-engine)**: turn any YouTube video into captioned vertical clips and post them everywhere through Kenji.
